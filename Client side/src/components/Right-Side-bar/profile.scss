@@ -1,0 +1,29 @@
+.right-para {
+  margin-top: 15px;
+
+  .d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img {
+    margin-top: inherit;
+    border-radius: 50%;
+  }
+
+  .btn-right {
+    background: linear-gradient(
+      90deg,
+      rgba(195, 253, 239, 1) 0%,
+      rgba(210, 215, 253, 1) 100%
+    );
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.25);
+    padding: 6px 20px;
+    border-radius: 20px;
+  }
+  .text {
+    margin-top: inherit;
+    display: inline-block;
+    text-align: left;
+  }
+}

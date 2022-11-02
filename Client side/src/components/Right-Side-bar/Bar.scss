@@ -1,0 +1,45 @@
+.right1 {
+  position: fixed;
+  left: 78%;
+  width: 22%;
+  background-color: #eaecf3;
+  padding: 0.8rem;
+  top: 0;
+  padding-top: 4.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .right-a {
+    text-decoration: none;
+    margin-top: 13px;
+  }
+
+  .img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .acc-name {
+    font-size: 1rem;
+    display: inline-block;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10rem;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .d {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

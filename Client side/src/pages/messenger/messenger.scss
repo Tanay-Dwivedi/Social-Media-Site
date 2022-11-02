@@ -1,0 +1,76 @@
+.messenger {
+  height: 100vh;
+  background-color: #d8e3f4;
+  overflow-y: hidden;
+  .chat {
+    position: relative;
+    top: 4rem;
+    left: 15%;
+    width: 85%;
+    background-color: #d8e3f4;
+    background-size: cover;
+    border-left: 5px solid #a9cafa;
+    height: 100vh;
+  }
+  .header {
+    display: flex;
+    .title {
+      background-color: #7b8bc9;
+      color: black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+      width: 70%;
+      img {
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+      .title-head {
+        display: flex;
+        margin: auto;
+        margin-left: 10px;
+        .title-con {
+          margin-left: 10px;
+          .up {
+            font-size: 20px;
+          }
+          .down {
+            font-size: 13px;
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        .fas {
+          margin: auto;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .side-nav {
+      color: white;
+      width: 30%;
+      font-size: 17px;
+      background-color: #655499;
+      padding: 20px 20px 20px 20px;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #615194;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7b6da8;
+  }
+}

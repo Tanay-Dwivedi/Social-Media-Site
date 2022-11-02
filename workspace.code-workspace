@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Social-Media-Platform",
+		"files.associations": {
+			"iostream": "cpp"
+		},
+		"git.ignoreLimitWarning": true
+	}
+}

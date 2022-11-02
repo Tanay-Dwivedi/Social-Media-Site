@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+body {
+  -webkit-text-size-adjust: none;
+}
+.Homepage {
+  .posts {
+    margin-left: 16%;
+    margin-right: 24%;
+    padding: 4% 0;
+  }
+  .add-post{
+    margin: auto;
+    max-width: 62rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+}

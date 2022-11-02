@@ -1,0 +1,78 @@
+.post {
+  margin: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(195, 253, 239, 1) 0%,
+    rgba(210, 215, 253, 1) 100%
+  );
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.36);
+  margin-top: 6%;
+  border-radius: 3px;
+  width: 50%;
+
+  .post-inside {
+    background: #f1f1f1;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    height: inherit;
+    position: relative;
+    top: -5px;
+    left: -5px;
+    margin: auto;
+    padding: 10px;
+  }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    .profile-img {
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+  }
+
+  .mid-img {
+    filter: drop-shadow(4px 3px 4px rgba(0, 0, 0, 0.27));
+    // min-height: 20rem;
+    margin-top: 20px;
+    width: 95%;
+  }
+  .mid-icon {
+    margin-top: 0;
+    margin: 0 5px;
+    color: white;
+  }
+  p {
+    height: 60px;
+    .right-icon {
+      text-decoration: none;
+      float: right;
+      margin: 14px 14px 0 14px;
+      cursor: pointer;
+    }
+
+    .heart {
+      float: left;
+      margin: -23px -14px 0 -14px;
+      width: 100px;
+      height: 100px;
+      background: url("../../assets/heart.png") no-repeat;
+      background-position: 0 0;
+      cursor: pointer;
+      transition: background-position 1s steps(28);
+      transition-duration: 0s;
+
+      &.is-active {
+        transition-duration: 1s;
+        background-position: -2800px 0;
+      }
+    }
+  }
+  .comments {
+    width: 100%;
+    // float: left;
+  }
+}

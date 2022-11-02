@@ -1,0 +1,75 @@
+.chat-body {
+  width: 70%;
+  .chat-box {
+    overflow-y: scroll;
+    height: 72vh;
+    border-bottom: 3px solid #a9cafa;
+  }
+  .message-box {
+    display: block;
+    width: 100%;
+  }
+  .send {
+    margin: 5px 0px;
+    float: right;
+    .message {
+      padding: 5px 10px;
+      background-color: rgb(89, 255, 89);
+      color: black;
+      font-size: 1.2rem;
+      border-radius: 5px 0px 5px 5px;
+    }
+    .arrow {
+      width: 0;
+      height: 0;
+      border-top: 0px solid transparent;
+      border-left: 15px solid rgb(89, 255, 89);
+      border-bottom: 15px solid transparent;
+    }
+  }
+  .receive {
+    margin: 5px 0px;
+    display: block;
+    margin-right: auto;
+    .message {
+      padding: 5px 10px;
+      background-color: white;
+      color: black;
+      font-size: 1.2rem;
+      border-radius: 0px 5px 5px 5px;
+    }
+    .arrow {
+      width: 0;
+      height: 0;
+      border-top: 0px solid transparent;
+      border-right: 15px solid white;
+      border-bottom: 15px solid transparent;
+    }
+  }
+
+  .type {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    textarea {
+      border-radius: 20px;
+      padding: 5px 10px;
+      width: 80%;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #615194;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7b6da8;
+  }
+}

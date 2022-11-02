@@ -1,0 +1,27 @@
+.user-list {
+  margin: 10px 20px;
+  background-color: #d3d9e9;
+  display: flex;
+  justify-content: space-between;
+  width: 45vh;
+  padding: 5px 10px;
+
+  .author {
+    .author-img img {
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .author-box {
+      .author-name {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+      .author-message {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .author-lastseen {
+    font-size: 0.7rem;
+  }
+}
