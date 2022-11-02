@@ -1,17 +1,18 @@
 <div align="center"> 
 <img src="./logo.png" />
 
-# HI-CON  
+# HI-CON
+
 </div>
 
 <div align="center">
 
-   ![Open-Source](https://img.shields.io/badge/-OPEN--SOURCE-%236fff00?style=for-the-badge&logo=github)
-   ![GitHub repo size](https://img.shields.io/github/repo-size/akshatnema/Social-Media-Platform?color=green&label=SIZE&logo=github&style=for-the-badge)
-   ![GitHub Repo stars](https://img.shields.io/github/stars/akshatnema/Social-Media-Platform?color=%2381f200&logo=github&style=for-the-badge)
-   ![GitHub forks](https://img.shields.io/github/forks/akshatnema/Social-Media-Platform?color=%2300c8ff&logo=github&style=for-the-badge)
-   ![GitHub issues](https://img.shields.io/github/issues/akshatnema/Social-Media-Platform?color=%23f6ff00&logo=github&style=for-the-badge)
-   [![Discord](https://img.shields.io/badge/-Discord-%2300d5ff?style=for-the-badge&logo=Discord&color=39c3ed&url=https://t.me/joinchat/YaYtDpKRN6A2Njg1)](https://discord.gg/gtQSQmyu)
+![Open-Source](https://img.shields.io/badge/-OPEN--SOURCE-%236fff00?style=for-the-badge&logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size//Social-Media-Platform?color=green&label=SIZE&logo=github&style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars//Social-Media-Platform?color=%2381f200&logo=github&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks//Social-Media-Platform?color=%2300c8ff&logo=github&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues//Social-Media-Platform?color=%23f6ff00&logo=github&style=for-the-badge)
+[![Discord](https://img.shields.io/badge/-Discord-%2300d5ff?style=for-the-badge&logo=Discord&color=39c3ed&url=https://t.me/joinchat/YaYtDpKRN6A2Njg1)](https://discord.gg/gtQSQmyu)
 
 </div>
 
@@ -19,6 +20,7 @@
 
 **A Social Media Platform which aims to connect the people around the world so as they can share their memories, photos, videos and communicate from any part of world.HI-CON provides secured one-to-one text and voice-video call facility to the users for better communication.**
 <br>
+
 </div>
 
 <div align="center">
@@ -40,6 +42,7 @@ Here are the steps you need to do:
    ```
    git clone https://github.com/<your-username>/Social-Media-Platform.git
    ```
+
 3. Go to project directory `Social-Media-Platform` in terminal, using following command.
    ```
    cd Social-Media-Platform
@@ -61,14 +64,10 @@ Here are the steps you need to do:
    ```
    npm start
    ```
-7. In second terminal, go to `Client side` directory and install the necessary node dependencies and run the client side using `npm start`. If you are confused, then use following commands:
+8. In second terminal, go to `Client side` directory and install the necessary node dependencies and run the client side using `npm start`. If you are confused, then use following commands:
    ```
    cd Client side
    npm install
    npm start
    ```
-8. Open https://localhost:3000 on your browser to see the project running.
-
-## Contact Us
-
-If you have any questions or get into some trouble, Do join our Discord server [here](https://discord.gg/gtQSQmyu) and ask there from contributors. Your ideas are welcome.
+9. Open https://localhost:3000 on your browser to see the project running.

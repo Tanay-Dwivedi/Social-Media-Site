@@ -7,7 +7,7 @@ function Chatlist() {
   return (
     <div class="chatlist">
       <User name="Aparna" message="DBMS marks - 35.5" img={img} last="3PM" />
-      <User name="Akshat" message="DBMS marks - 39.75" img={img} last="3PM" />
+      <User name="Tanay" message="DBMS marks - 39.75" img={img} last="3PM" />
       <User
         name="Abhinandan"
         message="DBMS marks - bata nahi raha"

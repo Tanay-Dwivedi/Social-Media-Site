@@ -16,7 +16,7 @@ function Bar(props) {
             </a>
           </span>
         </div>
-        <Profile name="Akshat Nema" />
+        <Profile name="Tanay Dwivedi" />
         <Profile name="Abhinandan Gaur" />
         <Profile name="Aparna Bhatt" />
         <Profile name="Bhawna Khatri" />

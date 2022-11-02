@@ -36,7 +36,7 @@ function Home() {
         <Post />
         <Post />
       </div>
-      <Bar user="Akshat" />
+      <Bar user="Tanay" />
     </div>
   );
 }

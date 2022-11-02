@@ -36,7 +36,7 @@ function Messenger() {
             <div className="title-head">
               <img src={icon} alt="profile-pic" />
               <div class="title-con">
-                <div className="up"> Akshat</div>
+                <div className="up"> Tanay</div>
                 <div className="down">last seen</div>
               </div>
             </div>
